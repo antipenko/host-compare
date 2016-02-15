@@ -4726,4 +4726,50 @@ button.success,
   background-color: #0054a6;
 }
 
+.slick-arrow {
+  text-indent: -9999px;
+  top: 35%;
+  position: absolute;
+  z-index: 20;
+  min-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background: no-repeat 50%;
+}
+
+@media (max-width: 767px) {
+  .slick-arrow {
+    top: 450px;
+  }
+}
+
+.slick-arrow:focus {
+  opacity: 0.7;
+  outline: none;
+}
+
+.slick-arrow:active {
+  opacity: 0.5;
+  outline: none;
+}
+
+.slick-arrow:focus, .slick-arrow:active, .slick-arrow:hover {
+  width: 60px;
+  height: 60px;
+  background-color: none;
+}
+
+.slick-prev {
+  background-image: url(../img/prev.png);
+  left: -60px;
+}
+
+.slick-next {
+  background-image: url(../img/next.png);
+  right: -60px;
+}
+
 /*# sourceMappingURL=app.css.map */
