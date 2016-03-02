@@ -15,7 +15,7 @@
 		var slider=$('.ba-slider');
 
 		$('.ba-featured-slider').slick({
-			dots: true,
+			dots: false,
    			infinite:false,
 			arrow:false,
 			prevArrow: false,

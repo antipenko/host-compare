@@ -4566,9 +4566,18 @@ button.success,
     float: left;
   }
 }
-
+.ba-logo {
+  font-weight: 700;
+  font-size: 34px;
+}
+.ba-review {
+  margin-top: -300px;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .ba-baner {
-  background-color: #ff742c;
+  background-color: #111;
   position: relative;
   min-height: 100vh;
 }
